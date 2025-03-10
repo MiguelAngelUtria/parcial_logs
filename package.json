@@ -1,5 +1,5 @@
 {
-  "name": "parcial-1-servicio-logs",
+  "name": "logs-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "amqplib": "^0.10.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mysql": "^2.18.1"
